@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Combustível</title>
+  <link rel="stylesheet" href="estilo.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+
+
+ 
+  <div class="container">
+  <h1>Calculadora Combustível</h1>
+
+ 
+  
+  <div class = "box">
+    <label for="PrecoAlcool" class="custom-label">Digite o preço do Álcool:</label>
+    <input type="text" id="PrecoAlcool" maxlength="4">
+   
+  </div>
+  
+  <div class="box">
+    <label for="PrecoGasolina" class="custom-label">Digite o preço da Gasolina:</label>
+    <input type="text" id="PrecoGasolina"maxlength="4">
+  </div>
+  
+  <button onclick="CapturaPrecos()">Salvar</button>
+  <button onclick="CalculaMelhorPreco()">Calcular</button>
+  
+<footer class= "footer">
+  Digite os preços usando apenas números separados por vírgula, após clique em salvar e depois em calcular. Assim a página fará os
+  calculos automaticamente.
+
+</footer>
+
+</body>
+</html>
